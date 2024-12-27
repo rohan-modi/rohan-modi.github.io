@@ -178,6 +178,10 @@ li a:hover {
     transform: translateY(-100%);
 }
 
+.mdi-navigation-more-vert.right {
+    pointer-events: none;
+}
+
 
 /* body {
   color: black;
