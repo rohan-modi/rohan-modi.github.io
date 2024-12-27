@@ -129,8 +129,12 @@ body {
 }
 
 li a {
-    text-transform: none !important; /* Disable uppercase on <a> tags inside <li> */
-  }
+    text-transform: none !important;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
 
 /* body {
   color: black;
