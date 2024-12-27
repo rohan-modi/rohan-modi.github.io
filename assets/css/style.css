@@ -164,6 +164,21 @@ li a:hover {
 
 .card-reveal {
     transition: transform 0.45s ease-in-out;
+    z-index: 2;
+}
+
+.card-reveal:hover + .card-action {
+    opacity: 1;
+}
+
+.card-action {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+.card-action:hover {
+    opacity: 1;
 }
 
 .card-reveal:hover {
@@ -180,6 +195,11 @@ li a:hover {
 
 .mdi-navigation-more-vert.right {
     pointer-events: none;
+}
+
+.spacer {
+    list-style-type: none !important;
+    height: 55px; /* Adjust the height to your desired space */
 }
 
 
