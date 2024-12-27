@@ -496,6 +496,11 @@ a.hoverline:hover {
   display: table-cell;
 }
 
+.col.s4.m2 {
+    max-width: 140px;
+    min-height: 127px;
+}
+
 .card.large .card-content p {
   color: inherit;
   margin: 0;
