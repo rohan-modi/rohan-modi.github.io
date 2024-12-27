@@ -136,6 +136,49 @@ li a:hover {
     text-decoration: underline;
 }
 
+/* .card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-reveal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+
+  .card:hover .card-reveal {
+    transform: translateY(0);
+  }
+
+  .card-content {
+    position: relative;
+    z-index: 2;
+  } */
+
+.card-reveal {
+    transition: transform 0.45s ease-in-out;
+}
+
+.card-reveal:hover {
+    transform: translateY(-100%);
+}
+
+.card-image {
+    pointer-events: none;
+}
+
+.card.medium:hover > .card-reveal {
+    transform: translateY(-100%);
+}
+
+
 /* body {
   color: black;
   font-size: 18px;
