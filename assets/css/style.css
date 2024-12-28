@@ -203,6 +203,9 @@ li a:hover {
     height: 55px; /* Adjust the height to your desired space */
 }
 
+.col.s4.m2 img {
+    height: 98.84px;
+}
 
 /* body {
   color: black;
