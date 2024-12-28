@@ -175,6 +175,7 @@ li a:hover {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     z-index: 1;
+    border-top: none !important;
 }
 
 .card-action:hover {
